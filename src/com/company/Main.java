@@ -23,6 +23,6 @@ public class Main {
         strings.add("ab");
         strings.stream()
                 .filter(s -> s.charAt(0)=='a')
-                 .forEach(System.out::println);
+                 .forEach(System.out::println); //stream
     }
 }
